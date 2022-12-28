@@ -1,0 +1,74 @@
+{
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "files.autoGuessEncoding": true,
+    "editor.fontFamily": "Ricty Diminished",
+    "editor.wordWrap": "on",
+    "editor.minimap.enabled": false,
+    "editor.fontSize": 18,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "git.ignoreWindowsGit27Warning": true,
+    "window.zoomLevel": 0,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "Darcula Pycharm with Dark GUI",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+    },
+    "terminal.integrated.fontSize": 17,
+    "code-runner.runInTerminal": true,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.startupEditor": "none",
+    "gitlens.advanced.messages": {
+        "suppressLineUncommittedWarning": true
+    },
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": true,
+        "markdown": true,
+        "python": true
+    },
+    "[python]": {
+        "editor.tabSize": 4,
+    },
+    "python.pythonPath": "C:/Users/MK/Anaconda3",
+    "python.linting.lintOnSave": true,
+    "python.linting.pylintEnabled": false,
+    "python.languageServer": "Default",
+    "notebook.markup.fontSize": 17,
+    "python.linting.flake8Args": [
+        "--max-line-length",
+        "150",
+        "--ignore=E203,W503,W504"
+    ],
+    "python.linting.flake8Enabled": true,
+    "python.formatting.provider": "black",
+    "python.formatting.blackArgs": [
+        "--line-length=150"
+    ],
+    "[javascript]": {
+        "editor.tabSize": 2,
+        "editor.detectIndentation": false
+    },
+    "[javascriptreact]": {
+        "editor.tabSize": 2,
+        "editor.detectIndentation": false
+    },
+    "[json]": {
+        "editor.tabSize": 4,
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "githubPullRequests.pullBranch": "never",
+    "git.confirmSync": false,
+}
