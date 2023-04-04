@@ -1,5 +1,4 @@
 {
-    "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "files.autoSave": "afterDelay",
     "files.autoSaveDelay": 1000,
@@ -32,13 +31,14 @@
     "editor.inlineSuggest.enabled": true,
     "github.copilot.enable": {
         "*": true,
-        "yaml": false,
+        "yaml": true,
         "plaintext": true,
         "markdown": true,
         "python": true
     },
     "[python]": {
         "editor.tabSize": 4,
+        "editor.formatOnType": true,
     },
     "python.pythonPath": "C:/Users/MK/Anaconda3",
     "python.linting.lintOnSave": true,
@@ -67,8 +67,37 @@
         "editor.tabSize": 4,
     },
     "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
+        "editor.defaultFormatter": "vscode.html-language-features",
+        "editor.tabSize": 2,
+        "editor.detectIndentation": false
     },
     "githubPullRequests.pullBranch": "never",
     "git.confirmSync": false,
+    "github.copilot.advanced": {
+        "audioCues.volume": 0
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "jupyter.widgetScriptSources": [
+        "jsdelivr.com",
+        "unpkg.com"
+    ],
+    "githubPullRequests.createOnPublishBranch": "never",
+    "[typescriptreact]": {
+        "editor.tabSize": 2,
+        "editor.detectIndentation": false
+    },
+    "[css]": {
+        "editor.tabSize": 2,
+        "editor.detectIndentation": false
+    },
+    "update.showReleaseNotes": false,
+    "editor.inlayHints.enabled": "off",
+    "diffEditor.wordWrap": "off",
+    "editor.guides.indentation": false,
+    "editor.guides.bracketPairs": false,
+    "codeium.enableConfig": {
+        "*": false,
+        "gitignore": true
+    },
+    "glassit.alpha": 245,
 }
